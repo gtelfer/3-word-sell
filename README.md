@@ -11,3 +11,5 @@ y u heff to b mad
 anyone can edit this file u kno
 
 readmes r good for projects they help document your code 
+
+I know
