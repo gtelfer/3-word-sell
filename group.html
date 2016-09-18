@@ -4,16 +4,39 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Here is our main page</h1>
-<h2>Learn more about each of us by clicking on the links!</h2>
-<ul>
-<li><a href="gavin.html"</a>Gavin</li>
-<li><a href="lelanddoc.html">Leland</a></li>
-<li><a href="emily.html">Emily</a></li>
-<li><a href="elaine.html">Elaine</a></li>
-<li><a href="caleb.html">Caleb</a></li>
-<li><a href="michael.html">Michael</a></li>
-<li><a href="quintin.html">Quintin</a></li>
-</ul>
+<h1>Main page</h1>
+<h2><marquee>Learn more about each of us by clicking on the links!</marquee></h2>
+<ul class="topnav" id="myTopnav">
+  		    <li><a href="#Home="">Home</a></li>
+  		    <li><a href="#Caleb">Caleb</a></li>
+  		    <li><a href="#Elaine">Elaine</a></li>
+		    <li><a href="#Emily">Emily</a></li>
+		    <li><a href="#Gavin">Gavin</a></li>
+		    <li><a href="#Michael">Michael</a></li>
+		</ul>
+	<p>Welcome to the Main Page of the Paly Robotics Web Team members! We all made individual websites about ourselves, so go ahead and click the links above for more details!</p>
 </body>
+<style>
+	ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}	
+	</style>
 </html>
