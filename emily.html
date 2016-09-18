@@ -1,19 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 	<!--Links to CSS-->
 	<head>	
 		<link rel=”icon” href=”favicon.ico”>
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Orbitron">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Hind+Guntur">
 		<link rel="stylesheet" href="styles.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<script src="javascript.js"></script>
+		<title>Emily Yu</title>
 	</head>
+
+	<!--inline CSS -->
+	<style>
+	/* Remove margins and padding from the list, and add a black background color */
+	ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	}
+
+	/* Float the list items side by side */
+	ul.topnav li {float: left;}
+
+	/* Style the links inside the list items */
+	ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: "Orbitron";
+	}
+
+	/* Change background color of links on hover */
+	ul.topnav li a:hover {background-color: #555;}
+
+	/* Hide the list item that contains the link that should open and close the topnav on small screens */
+	ul.topnav li.icon {display: none;}
+
+	/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+	@media screen and (max-width:680px) {
+  	ul.topnav li:not(:first-child) {display: none;}
+  	ul.topnav li.icon {
+    	float: right;
+    	display: inline-block;
+  	}
+	}
+
+	/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+	@media screen and (max-width:680px) {
+  	ul.topnav.responsive {position: relative;}
+  	ul.topnav.responsive li.icon {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+  	}
+  	ul.topnav.responsive li {
+    	float: none;
+    	display: inline;
+  	}
+  	ul.topnav.responsive li a {
+    	display: block;
+    	text-align: left;
+  	}
+	}
+	</style>
 
 	<!--Body-->
 	<body style="background-color:powderblue;">
+
+		<!--Header-->
 		<div style="font-family: 'Orbitron', serif; font-size: 33px"><font color = "#000000"><center>Emily Yu</center></font></div>
+		<hr>
+
+		<!--Navigation Bar-->
+		<ul class="topnav" id="myTopnav">
+  		    <li><a href="group.html"">Home</a></li>
+  		    <li><a href="elaine.html">Elaine</a></li>
+		    <li><a href="emily.html">Emily</a></li>
+		    <li><a href="gavin.html">Gavin</a></li>
+		    <li><a href="michael.html">Michael</a></li>
+		    <li><a href="quintin.html">Quintin</a></li>
+		    <li><a href="lelanddoc.html">Leland</a></li>
+		</ul>	
+		<hr>
+
+		<!--Inpage Navigation Bar-->
 		<div>
-			<hr>
+			<center>
+				<a href="#general" style = "text-decoration: none;";><font color = "#000000">General&nbsp;&loz;</font></a>
+				<a href="#real" style = "text-decoration: none;"><font color = "#000000">Real World Experience&nbsp;&loz;</font></a>
+				<a href="#projects" style = "text-decoration: none;"><font color = "#000000">Projects&nbsp;&loz;</font></a>
+				<a href="#skills" style = "text-decoration: none;"><font color = "#000000">Skills&nbsp;&loz;</font></a>
+				<a href="#communication" style = "text-decoration: none;"><font color = "#000000">Communication</font></a>
+			</center>
+		</div>
+
+		<!--Body Info-->
+		<div id = "#general">
 			<p style="font-family: 'Orbitron', serif; font-size: 16px">General</p>
 			<ul>
 				<li>Grade: 11</li>
@@ -40,22 +130,31 @@
 				<li>2016: Swift, OSX - Robot Battle AI</li>
 				<li>2016: Swift, iOS - Tip Calculator</li>
 				<li>2016: Swift, iOS - Notes App</li>
+				<li>2016: Swift, iOS - Game of Life</li>
 				<li>2016: Swift, iOS - Flappy Bird, Angry Birds, and Timberman Clone</li>
 				<li>2016: Swift, iOS - Released Game on App Store</li>
 			</ul>
 		</div>
-		<div>
+		<a name = "#skills">
+		<div id = "#skills">
 			<p style="font-family: 'Orbitron', serif; font-size: 16px">Skills</p>
 			<ul>
 				<li>Proficient Digital Artist</li>
 				<li>Game/App Developer Hobbyist</li>
 			</ul>
+			<p style="font-family: 'Orbitron', serif; font-size: 16px">Communication</p>
+			<ul>
+				<li>Experience with Science Olympiad</li>
+				<li>Experience with Pitching and Presenting Ideas</li>
+			</ul>
+		</div>
+		</a>
 		<hr>
 
 	</body>
 
 	<footer>
-		©Copyright 2016 - Emily Yu. All rights reserved.
+		© Copyright 2016 - Emily Yu. All rights reserved.
 	</footer>
 
 <html>
