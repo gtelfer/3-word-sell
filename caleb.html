@@ -8,8 +8,9 @@
 	</head>
 
 	<body>
-		
-		<h1>Caleb's Page</h1>
+		<div class=title>
+			<h1>Caleb's Page</h1>
+		</div>
 
 		<ul class="topnav" id="myTopnav">
   		    <li><a href="group.html"">Home</a></li>
@@ -20,19 +21,21 @@
 		    <li><a href="quintin.html">Quintin</a></li>
 		    <li><a href="lelanddoc.html">Leland</a></li>
 		</ul>	
-
+		<div class="hi">
+			<h2>About Me</h2>
+		</div>
 		<hr>
 		
 		<div class="Background">
-			<h2>Background</h2>
-			<p style="text-align:justify">
+			<h3>Background</h3>
+			<p id="Ja" style="text-align:justify">
 			Hello, my name is Caleb and I aspire to be a member of the Paly Robotics Web team this year. Being from Silicon Valley, I have been exposed to many different STEAM experiences, and getting on the Paly Robotics team would allow me to further my interests in this field - all while having fun and developing close friendships in the process.
 
 			</p>
 		</div>
 
 		<div class="Past_Experience">
-			<h3>Past Experience</h3>
+			<h4>Past Experience</h4>
 			<p style="text-align:justify">
 			Though a relative beginner in the aspects of coding and such, I do know some concepts from a wide variety of topics. For example, I have some experience working with SQL and sqlite3, I know a variety of Bash commands, and I know a small amount of Python coding. Through the robotics tryout, I was also able to expand my horizons and familiarize myself with some HTML5 and CSS. Additionally, I was on a First Lego Robotics team in where our team built and coded a robot.   
 			</p>
@@ -40,7 +43,7 @@
 		</div>
 
 		<div class="Qualities">
-			<h4>My Qualities</h4>
+			<h5>My Qualities</h5>
 			<p style="text-align:justify">
 			If I get on this team, you can expect me to bring positive qualities and a good teamspirit. As a freshman who is new to web design, I have a learning spirit, and I hope to learn everything that I can as quick as possible. Also, I will do my best to collaborate with my teammates - acknowledging their ideas and proposing my own. In short, I will work hard, pulling my weight as a member of the team.  
 			</p>
@@ -63,7 +66,7 @@ ul.topnav li {float: left;}
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -72,22 +75,69 @@ ul.topnav li a {
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {background-color:#008080;}
 
-div {
-    margin-right:750px;
+h1{
+	text-align:center;
+	margin: 0px;
+	border: 5px;
+	color:white;
+	font-size:48px;
+	font-family:Walkway;
+	font-weight:lighter;
 }
 
 h2 {
-    font-size:20px;
+    font-size:27px;
+    padding:0px;
+    margin-left:15px;
+    font-family:tahoma;
+    font-weight:lighter;
+}
+
+.Background {
+	margin-left:15px !important;
+}
+
+.Past_Experience {
+	margin-left:15px;
+}
+.Qualities {
+	margin-left:15px;
 }
 
 h3{
     font-size:20px;
+	font-family:tahoma;
 }
 
 h4{
     font-size:20px;
+    font-family:tahoma;
 }	
+
+h5{
+	font-size:20px;
+	font-family:tahoma;
+}
+
+p{
+	margin-right:500px;
+	font-family:tahoma;
+}
+
+div.title {
+	background-color:#008080;
+	padding: 15px;
+}
+
+@font-face{
+	font-family: Walkway;
+	src: local(C:\Users\engtechp7\Desktop\3-word-sell\Walkway);
+}
+
+
+
 	</style>
+
 </html>
