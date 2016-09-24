@@ -20,34 +20,27 @@
 		<!--ENTERING NAVBAR ZONE WARNING * WARNING * -->
 		<!--MESSY NAVBAR STUFF STARTS HERE-->
 		
-		<div class="top-bar" data-topbar role="navigation">
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="#">My Site</a></h1>
-    </li>
-     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-  </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li class="active"><a href="#">Right Button Active</a></li>
-      <li class="has-dropdown">
-        <a href="#">Right Button Dropdown</a>
-        <ul class="dropdown">
-          <li><a href="#">First link in dropdown</a></li>
-          <li class="active"><a href="#">Active link in dropdown</a></li>
-        </ul>
-      </li>
-    </ul>
-
-    <!-- Left Nav Section -->
-    <ul class="left">
-      <li><a href="#">Left Nav Button</a></li>
-    </ul>
-  </section>
-</nav>	
+		<div class="top-bar">
+		  <div class="top-bar-title">
+		    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+		      <button class="menu-icon dark" type="button" data-toggle></button>
+		    </span>
+		  </div>
+		  <div id="responsive-menu">
+		    <div class="top-bar-left">
+		      <ul class="dropdown menu" data-dropdown-menu>
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">Caleb</a></li>
+		        <li><a href="#">Elaine</a></li>
+		        <li><a href="#">Emily</a></li>
+		        <li><a href="#">Gavin</a></li>
+		        <li><a href="#">Leland</a></li>
+		        <li><a href="#">Michael</a></li>
+		        <li><a href="#">Quintin</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</div>
 		
 		<!--EXITING NAVBAR ZONE NOW-->
 		<!--MESSY NAVBAR STUFF ENDS HERE-->
@@ -112,8 +105,34 @@
 
 	<style>
 	/*top bar css starts here*/
+.top-bar{
+	background-color:#333;
+	padding:0px;
+}
+ul.dropdown.menu{
+	background-color:#333;
+}
+
+li a{
+	color:white;
+	font-family:tahoma;
+}
+a:hover{
+	color:white;
+	background-color:#008080;
+}
+
+
+
+
+
+
+	
+
+
 
 	/*top bar css ends here*/
+
 
 /*Caleb's Page part*/
 .title {
@@ -214,7 +233,8 @@ body{
 img {
 	width:400px;
 	height:400px;
-	margin-top:-230px;
+	margin-top:-250px;
+	margin-left:30px;
 }
 
 /*-----------------------*/
