@@ -2,10 +2,10 @@
 <!DOCTYPE  html>
 <html lang="en">
 	<head>
-	<link rel="icon" href="favicon.ico">
+	<link rel="icon" href="main_logo.png">
 	<link rel="stylesheet" href="styles.css">
 	<title>About Quintin</title>
-	</head>
+	</head> 
 
 	<body>
 		
@@ -13,6 +13,7 @@
             <p class=title>
                 About Quintin
             </p>
+			<!--<img src="main_logo.png" width="48px">-->
         </div>
 
 		<ul class="topnav" id="myTopnav">
@@ -21,19 +22,12 @@
   		    <li><a href="elaine.html">Elaine</a></li>
 		    <li><a href="emily.html">Emily</a></li>
 		    <li><a href="gavin.html">Gavin</a></li>
-		    <li><a href="michael.html">Michael</a></li>
-            <li><a class=current href="quintin.html">Quintin</a></li>
-            <li><a href="leland.html">Leland</a></li>
+            <li><a href="lelanddoc.html">Leland</a></li>
+			<li><a href="michael.html">Michael</a></li>
+			<li><a class=current href="quintin.html">Quintin</a></li>
 		</ul>	
-
-		<div class=seperator>
-			
-		</div>
 	
-
 		<h1 class=title>About me</h1>
-
-		<hr>
 		
 		<div class="Background">
 			<h2>Technical knowledge</h2>
@@ -58,9 +52,19 @@
 			</p>
         </div>
 
+		<div class="footer">
+		</div>
+
+		<br>
+		<br>
+
 	</body>
 
 	<style>
+	img {
+		float: right;
+	}
+
 	p {
 		font-family: tahoma;
 	}
@@ -83,12 +87,26 @@
 
 	div.title {
 		background-color: #006622;
-		padding: 5px;
+		padding: 15px;
 	}
 
 	div.seperator {
 		background-color: black;
 		padding: 3px;
+	}
+
+	div.Background {
+		background-color: lightgray !important;
+		padding: 15px;
+		margin: 15px;
+	}
+
+	div.footer {
+		position: fixed;
+		bottom:0;
+		height: 35px;
+		width: 100%;
+		background-color:black;
 	}
 	
 	a.current {
