@@ -1,64 +1,105 @@
 
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 	<link rel="icon" href="favicon.ico">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="foundation-6.2.3-complete/css/foundation.css">
 	<title>About Caleb</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	</head>
 
 	<body>
-		<div class=title>
-			<h1>Caleb's Page</h1>
-		</div>
-
-		<ul class="topnav" id="myTopnav">
-  		    <li style="float:left"><a href="group.html"">Home</a></li>
-  		    <li><a class="current" href="caleb.html">Caleb</a></li>
-		    <li><a href="elaine.html">Elaine</a></li>
-		    <li><a href="emily.html">Emily</a></li>
-		    <li><a href="gavin.html">Gavin</a></li>
-		    <li><a href="lelanddoc.html">Leland</a></li>
-		    <li><a href="michael.html">Michael</a></li>
-		    <li><a href="quintin.html">Quintin</a></li>
-		</ul>	
 		
-		<div>
-			<h2>About Me</h2>
+		<div class="row title">
+			<div class = "large-12 columns">
+				<h1>Caleb's Page</h1>
+			</div>
 		</div>
-		<hr>
 		
-		<div class="Background">
-			<h3>Background</h3>
-			<p id="Ja" style="text-align:justify">
-			Hello, my name is Caleb and I aspire to be a member of the Paly Robotics Web team this year. Being from Silicon Valley, I have been exposed to many different STEAM experiences, and getting on the Paly Robotics team would allow me to further my interests in this field - all while having fun and developing close friendships in the process.
+		
+		<!--ENTERING NAVBAR ZONE WARNING * WARNING * -->
+		<!--MESSY NAVBAR STUFF STARTS HERE-->
+		
+		<div class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">My Site</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
 
-			</p>
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Right Button Active</a></li>
+      <li class="has-dropdown">
+        <a href="#">Right Button Dropdown</a>
+        <ul class="dropdown">
+          <li><a href="#">First link in dropdown</a></li>
+          <li class="active"><a href="#">Active link in dropdown</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Left Nav Button</a></li>
+    </ul>
+  </section>
+</nav>	
+		
+		<!--EXITING NAVBAR ZONE NOW-->
+		<!--MESSY NAVBAR STUFF ENDS HERE-->
+
+		<div class="row h2">
+			<div class="large-12 columns">
+				<h2>About Me</h2>
+			</div>
+		</div>
+	
+
+		<div class="row hr">
+			<div class="large-12 columns hr">
+				<hr>
+			</div>
+		</div>
+		
+		
+			
+		
+		
+		<div class="row p">
+			<div class="large-9 columns">
+				<h3>Background</h3>
+				<p id="Ja" style="text-align:justify">
+					Hello, my name is Caleb and I aspire to be a member of the Paly Robotics Web team this year. Being from Silicon Valley, I have been exposed to many different STEAM experiences, and getting on the Paly Robotics team would allow me to further my interests in this field - all while having fun and developing close friendships in the process.
+				</p>
+			</div>
+			<div class="large-9 columns">
+				<h4>Past Experience</h4>
+				<p style="text-align:justify">
+				Though a relative beginner in the aspects of coding and such, I do know some concepts from a wide variety of topics. For example, I have some experience working with SQL and sqlite3, I know a variety of Bash commands, and I know a small amount of Python coding. Through the robotics tryout, I was also able to expand my horizons and familiarize myself with some HTML5, CSS, and Git bash commands. Additionally, I was on a First Lego Robotics team in where our team built and coded a robot.   
+				</p>
+			</div>
+			<div class="large-9 columns qual">
+				<h5>My Qualities</h5>
+				<p style="text-align:justify">
+				If I get on this team, you can expect me to bring positive qualities and a good teamspirit. As a freshman who is new to web design, I have a learning spirit, and I hope to learn everything that I can as quick as possible. Also, I will do my best to collaborate with my teammates - acknowledging their ideas and proposing my own. In short, I will work hard, pulling my weight as a member of the team.  
+				</p>
+			</div>
+			<div class="large-3 columns">
+				<img src="https://pbs.twimg.com/profile_images/694763654680436736/GJO5ElF3.png">
+			</div>
 		</div>
 
-		<div class="image">
-			<img src="https://pbs.twimg.com/profile_images/694763654680436736/GJO5ElF3.png">
-		</div>
-
-		<div class="Past_Experience">
-			<h4>Past Experience</h4>
-			<p style="text-align:justify">
-			Though a relative beginner in the aspects of coding and such, I do know some concepts from a wide variety of topics. For example, I have some experience working with SQL and sqlite3, I know a variety of Bash commands, and I know a small amount of Python coding. Through the robotics tryout, I was also able to expand my horizons and familiarize myself with some HTML5, CSS, and Git bash commands. Additionally, I was on a First Lego Robotics team in where our team built and coded a robot.   
-			</p>
-
-		</div>
-
-		<div class="Qualities">
-			<h5>My Qualities</h5>
-			<p style="text-align:justify">
-			If I get on this team, you can expect me to bring positive qualities and a good teamspirit. As a freshman who is new to web design, I have a learning spirit, and I hope to learn everything that I can as quick as possible. Also, I will do my best to collaborate with my teammates - acknowledging their ideas and proposing my own. In short, I will work hard, pulling my weight as a member of the team.  
-			</p>
-		</div>
-
+		<script src="foundation-6.2.3-complete/js/vendor/jquery.js"></script>
+		<script src="foundation-6.2.3-complete/js/vendor/what-input.js"></script>
+		<script src="foundation-6.2.3-complete/js/vendor/foundation.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
 	</body>
-	<br>
-	<br>
 	<br>
 	<br>
 	<br>
@@ -70,31 +111,19 @@
 	</footer>
 
 	<style>
-	ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    font-family:tahoma;
+	/*top bar css starts here*/
+
+	/*top bar css ends here*/
+
+/*Caleb's Page part*/
+.title {
+	background-color:#008080;
+	padding:15px;
+	max-width:100%;
 }
 
-/* Float the list items side by side */
-ul.topnav li {float: left;}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color:#008080;}
+/*-------------------------*/
+/*the h1*/
 
 h1{
 	text-align:right;
@@ -106,50 +135,66 @@ h1{
 	font-family:Quicksand;
 	font-weight:bold;
 }
+/*-----------------------*/
+/*the h2*/
 
 h2 {
     font-size:35px;
     padding:0px;
-    margin-left:15px;
+    margin-top:30px;
     font-family:Quicksand;
-    font-weight:bold;
+    font-weight:bolder;
 }
 
-.Background {
-	margin-left:15px !important;
+.h2{
+	max-width:100%;
 }
 
-.Past_Experience {
-	margin-left:15px;
+/* ------------------------- */ 
+/* the hr line (top)*/
+
+.hr{     
+	max-width:100%;   
+	padding:0px; 
 }
-.Qualities {
-	margin-left:15px;
+hr{
+	margin-left:0px;
+	margin-right:0px;
+	max-width:100%;
+	margin-top:15px;
 }
+
+/*---------------------------*/
+/*div for the paragraphs,headings, and img*/
+.p {
+	max-width:100%;
+}
+
 
 h3{
     font-size:27px;
 	font-family:Quicksand;
+	margin-top:10px;
 }
 
 h4{
-    font-size:26px;
+    font-size:25px;
     font-family:Quicksand;
+    margin-top:15px;
 }	
 
 h5{
-	font-size:26px;
+	font-size:25px;
 	font-family:Quicksand;
+	margin-top:5px;
 }
 
-p{
-	margin-right:500px;
-	font-family:tahoma;
-}
-
-div.title {
-	background-color:#008080;
+.qual {
+	margin:0px;
 	padding:15px;
 }
+
+
 
 body{
 	background-color:white;
@@ -163,27 +208,23 @@ body{
 .current{
 	background-color:#008080;
 }
-/* IMAGE FOR THE RIGHT */
-.image {
-	float:right;
-	margin-right:63px;
-	margin-top:-60px;
-}
+/* Paly Robotics Image */
+
 
 img {
 	width:400px;
 	height:400px;
+	margin-top:-230px;
 }
 
+/*-----------------------*/
 /*footer*/
 footer{
 	padding-top:25px;
 	margin-left:15px;
+	font-family:times;
 }
-/*.asdf is everything but the home hyperlink*/
-.asdf {
-	float:right;
-}
+
 
 	</style>
 
