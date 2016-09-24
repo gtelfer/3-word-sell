@@ -1,18 +1,22 @@
 
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 	<link rel="icon" href="favicon.ico">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="foundation-6.2.3-complete/css/foundation.css">
+	<script src="foundation-6.2.3-complete/js/foundation.js"></script>
 	<title>About Caleb</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	</head>
 
 	<body>
-		<div class=title>
-			<h1>Caleb's Page</h1>
+		
+		<div class="row title">
+			<div class = "large-12 columns">
+				<h1>Caleb's Page</h1>
+			</div>
 		</div>
-
+		
 		<ul class="topnav" id="myTopnav">
   		    <li style="float:left"><a href="group.html"">Home</a></li>
   		    <li><a class="current" href="caleb.html">Caleb</a></li>
@@ -24,36 +28,49 @@
 		    <li><a href="quintin.html">Quintin</a></li>
 		</ul>	
 		
-		<div>
-			<h2>About Me</h2>
-		</div>
-		<hr>
 		
-		<div class="Background">
-			<h3>Background</h3>
-			<p id="Ja" style="text-align:justify">
-			Hello, my name is Caleb and I aspire to be a member of the Paly Robotics Web team this year. Being from Silicon Valley, I have been exposed to many different STEAM experiences, and getting on the Paly Robotics team would allow me to further my interests in this field - all while having fun and developing close friendships in the process.
-
-			</p>
+		<div class="row h2">
+			<div class="large-12 columns">
+				<h2>About Me</h2>
+			</div>
 		</div>
-
-		<div class="image">
-			<img src="https://pbs.twimg.com/profile_images/694763654680436736/GJO5ElF3.png">
+		
+		<div class="row hr">
+			<div class="large-12 columns hr">
+				<hr>
+			</div>
 		</div>
-
-		<div class="Past_Experience">
-			<h4>Past Experience</h4>
-			<p style="text-align:justify">
-			Though a relative beginner in the aspects of coding and such, I do know some concepts from a wide variety of topics. For example, I have some experience working with SQL and sqlite3, I know a variety of Bash commands, and I know a small amount of Python coding. Through the robotics tryout, I was also able to expand my horizons and familiarize myself with some HTML5, CSS, and Git bash commands. Additionally, I was on a First Lego Robotics team in where our team built and coded a robot.   
-			</p>
-
+		
+		<div class="row p">
+			<div class="large-12 columns">
+				<h3>Background</h3>
+				<p id="Ja" style="text-align:justify">
+					Hello, my name is Caleb and I aspire to be a member of the Paly Robotics Web team this year. Being from Silicon Valley, I have been exposed to many different STEAM experiences, and getting on the Paly Robotics team would allow me to further my interests in this field - all while having fun and developing close friendships in the process.
+				</p>
+			</div>
 		</div>
+		
+		
+		
+		<div class="row p">
+			<div class="large-9 columns">
+				<h4>Past Experience</h4>
+				<p style="text-align:justify">
+				Though a relative beginner in the aspects of coding and such, I do know some concepts from a wide variety of topics. For example, I have some experience working with SQL and sqlite3, I know a variety of Bash commands, and I know a small amount of Python coding. Through the robotics tryout, I was also able to expand my horizons and familiarize myself with some HTML5, CSS, and Git bash commands. Additionally, I was on a First Lego Robotics team in where our team built and coded a robot.   
+				</p>
+			</div>
+			<div class="large-3 columns">
+				<img src="https://pbs.twimg.com/profile_images/694763654680436736/GJO5ElF3.png">
+			</div>
+		</div>	
 
-		<div class="Qualities">
-			<h5>My Qualities</h5>
-			<p style="text-align:justify">
-			If I get on this team, you can expect me to bring positive qualities and a good teamspirit. As a freshman who is new to web design, I have a learning spirit, and I hope to learn everything that I can as quick as possible. Also, I will do my best to collaborate with my teammates - acknowledging their ideas and proposing my own. In short, I will work hard, pulling my weight as a member of the team.  
-			</p>
+		<div class="row p">
+			<div class="large-12 columns">
+				<h5>My Qualities</h5>
+				<p style="text-align:justify">
+				If I get on this team, you can expect me to bring positive qualities and a good teamspirit. As a freshman who is new to web design, I have a learning spirit, and I hope to learn everything that I can as quick as possible. Also, I will do my best to collaborate with my teammates - acknowledging their ideas and proposing my own. In short, I will work hard, pulling my weight as a member of the team.  
+				</p>
+			</div>
 		</div>
 
 	</body>
@@ -107,24 +124,39 @@ h1{
 	font-weight:bold;
 }
 
+/*the h2*/
 h2 {
     font-size:35px;
     padding:0px;
-    margin-left:15px;
+    margin-top:15px;
     font-family:Quicksand;
-    font-weight:bold;
+    font-weight:bolder;
 }
 
-.Background {
-	margin-left:15px !important;
+.h2{
+	max-width:100%;
 }
 
-.Past_Experience {
-	margin-left:15px;
+/* ------------------------- */ 
+/* the hr line (top)*/
+
+.hr{     
+	max-width:100%;   
+	padding:0px; 
 }
-.Qualities {
-	margin-left:15px;
+hr{
+	margin-left:0px;
+	margin-right:0px;
+	max-width:100%;
+	margin-top:15px;
 }
+
+/*---------------------------*/
+/*div for the paragraphs*/
+.p {
+	max-width:100%;
+}
+
 
 h3{
     font-size:27px;
@@ -146,9 +178,10 @@ p{
 	font-family:tahoma;
 }
 
-div.title {
+.title {
 	background-color:#008080;
 	padding:15px;
+	max-width:100%;
 }
 
 body{
