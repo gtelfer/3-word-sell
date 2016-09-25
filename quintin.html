@@ -19,15 +19,16 @@
 		</div>
 	</div>
 
-	<!--<div class="title-bar nav" data-responsive-toggle="example-menu" data-hide-for="medium">
-  		<button class="menu-icon" type="button" data-toggle></button>
+	<!--Menu button-->
+	<div class="title-bar nav" data-responsive-toggle="example-menu" data-hide-for="medium">
+  		<button class="menu-icon navmenu" type="button" data-toggle></button>
   		<div class="title-bar-title">Menu</div>
-	</div>-->
+	</div>
 
+	<!--Nav bar-->
 	<div class="top-bar nav" id="example-menu">
 		<div class="top-bar-left">
-			<ul class="dropdown menu nav" data-dropdown-menu>
-				<li><a class="nav" href="group.html">Home</a></li>
+			<ul class="vertical medium-horizontal menu nav">
 				<li><a class="nav" href="caleb.html">Caleb</a></li>
 				<li><a class="nav" href="elaine.html">Elaine</a></li>
 				<li><a class="nav" href="emily.html">Emily</a></li>
@@ -35,6 +36,11 @@
 				<li><a class="nav" href="leland.html">Leland</a></li>
 				<li><a class="nav" href="micheal.html">Micheal</a></li>
 				<li><a class="nav selected" href="quintin.html">Quintin</a></li>
+			</ul>
+		</div>
+		<div class="top-bar-right">
+			<ul class="vertical medium-horizontal menu nav">
+				<li><a class="img" href="group.html"><img src="home_icon.png"/>Home</a></li>
 			</ul>
 		</div>
 	</div>
@@ -95,15 +101,28 @@
 	}
 	a.nav {
 		color: white;
+		padding: 15px !important;
+	}
+	a.img {
+		color: white;
+		padding: 7px !important;
+	}
+	button.navmenu {
+		margin: 15px !important;
+	}
+	div.nav {
+		background-color: #1c1c1c !important;
+		padding: 0px !important;
 	}
 	.nav {
 		background-color: #1c1c1c !important;
 	}
 	.selected {
-		background-color: #2980B9 !important;
+		background-color: #2C3E50 !important;
 	}
 	a:hover {
 		background-color: #2D2A2A !important;
+		transition: 0.4s;
 	}
 
 </style>
