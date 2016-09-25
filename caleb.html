@@ -19,28 +19,29 @@
 		
 		<!--ENTERING NAVBAR ZONE WARNING * WARNING * -->
 		<!--MESSY NAVBAR STUFF STARTS HERE-->
-		
-		<div class="top-bar">
-		  <div class="top-bar-title">
-		    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-		      <button class="menu-icon dark" type="button" data-toggle></button>
-		    </span>
-		  </div>
-		  <div id="responsive-menu">
+		  		
+		<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+			<button class="menu-icon navmenu" type="button" data-toggle></button>
+			<div class="title-bar-title">Menu</div>
+		</div>
+		<div class="top-bar" id="example-menu">
 		    <div class="top-bar-left">
-		      <ul class="dropdown menu" data-dropdown-menu>
-		        <li><a href="#">Home</a></li>
-		        <li><a href="#">Caleb</a></li>
-		        <li><a href="#">Elaine</a></li>
-		        <li><a href="#">Emily</a></li>
-		        <li><a href="#">Gavin</a></li>
-		        <li><a href="#">Leland</a></li>
-		        <li><a href="#">Michael</a></li>
-		        <li><a href="#">Quintin</a></li>
-		        <li><a href="#">Ujjwal</a></li>
-		      </ul>
+			      <ul class="vertical medium-horizontal menu nav" data-dropdown-menu>
+			        <li><a class="current" href="#">Caleb</a></li>
+			        <li><a href="elaine.html">Elaine</a></li>
+			        <li><a href="foundation-6.2.3-complete/emily.html">Emily</a></li>
+			        <li><a href="gavin.html">Gavin</a></li>
+			        <li><a href="lelanddoc.html">Leland</a></li>
+			        <li><a href="michael.html">Michael</a></li>
+			        <li><a href="quintin.html">Quintin</a></li>
+			        <li><a href="Ujjwal.html">Ujjwal</a></li>
+			      </ul>
 		    </div>
-		  </div>
+		    <div class="top-bar-right">
+		    	<ul class="vertical medium-horizontal menu nav">
+		    		<li><a class="home_link" href="#"><img class="home_button" src="home_icon.png">Home</a></li>
+		    	</ul>
+		    </div>
 		</div>
 		
 		<!--EXITING NAVBAR ZONE NOW-->
@@ -53,8 +54,11 @@
 		</div>
 	
 
-		<div class="row hr">
-			<div class="large-12 columns hr">
+		<div class="row row">
+			<div class="large-9 columns hr1">
+				<hr>
+			</div>
+			<div class="large-2 columns hr2">
 				<hr>
 			</div>
 		</div>
@@ -99,7 +103,6 @@
 	<br>
 	<br>
 	<br>
-	<br>
 	<hr>
 	<footer>
 		© Copyright 2016 - Caleb Tan. All rights reserved.
@@ -107,33 +110,57 @@
 
 	<style>
 	/*top bar css starts here*/
-.top-bar{
-	background-color:#333;
-	padding:0px;
+
+div.top-bar{
+	background-color:#333333;
 }
-ul.dropdown.menu{
-	background-color:#333;
+
+ul.vertical.medium-horizontal.menu.nav{
+	background-color:#333333;
 }
 
 li a{
 	color:white;
-	font-family:tahoma;
+	font-family:Quicksand;
 }
+
+a{
+	padding:0px;
+}
+
 a:hover{
 	color:white;
 	background-color:#008080;
+	transition:0.4s;
+}
+
+.top-bar{
+	padding:0px;
+}
+
+.current{
+	background-color:#008080;
+}
+
+.title-bar{
+	background-color:#333333;
+}
+
+.home_button{
+	width:32px;
+	height:32px;
+	margin-top:2px;
+
+}
+.home_link{
+	padding:2px !important;
+	margin-top:0px !important;
+	margin-right:25px;
 }
 
 
-
-
-
-
-	
-
-
-
 	/*top bar css ends here*/
+
 
 
 /*Caleb's Page part*/
@@ -174,10 +201,22 @@ h2 {
 /* ------------------------- */ 
 /* the hr line (top)*/
 
-.hr{     
-	max-width:100%;   
-	padding:0px; 
+.hr1{     
+ 	max-width:100%;
+ 	padding:0px;
+ 	width:1388px;
 }
+
+.hr2{     
+	max-width:100%;     
+	padding:0px;     
+	width:410px; 
+}
+
+.row{
+	max-width:100%;
+}
+
 hr{
 	margin-left:0px;
 	margin-right:0px;
