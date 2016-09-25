@@ -1,145 +1,130 @@
-
 <!DOCTYPE  html>
-<html lang="en">
-	<head>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="main_logo.png">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="foundation-6.2.3-complete/css/foundation.css">
 	<title>About Quintin</title>
-	</head> 
+</head>
 
-	<body>
-		
-        <div class=title>
-            <p class=title>
-                About Quintin
-            </p>
-			<!--<img src="main_logo.png" width="48px">-->
-        </div>
+<body>
+	<div class="row title">
+		<div class="large-12 columns">
+			<h1 class="title">
+				About Quintin
+			</h1>
+		</div>
+	</div>
 
-		<ul class="topnav" id="myTopnav">
-  		    <li><a href="group.html">Home</a></li>
-  		    <li><a href="caleb.html">Caleb</a></li>
-  		    <li><a href="elaine.html">Elaine</a></li>
-		    <li><a href="emily.html">Emily</a></li>
-		    <li><a href="gavin.html">Gavin</a></li>
-            <li><a href="lelanddoc.html">Leland</a></li>
-			<li><a href="michael.html">Michael</a></li>
-			<li><a class=current href="quintin.html">Quintin</a></li>
-		</ul>	
-	
-		<h1 class=title>About me</h1>
-		
-		<div class="Background">
-			<h2>Technical knowledge</h2>
-			<p style="text-align:justify">
-			I have worked with HTML, CSS, and JavaScript before. At the robotics camp during the summer I worked on a site for a robot and learned HTML and CSS. On my free time during the camp when I had completed my tasks, I created a game and slideshow in JavaScript. In terms of Git, I have used it before with my game in Unity to distribute it to my friends, so I am familiar with basic git shell commands. In addition to these web programming languages, I have also worked with C#, Java, and Python.
+	<!--Menu button-->
+	<div class="title-bar nav" data-responsive-toggle="example-menu" data-hide-for="medium">
+  		<button class="menu-icon navmenu" type="button" data-toggle></button>
+  		<div class="title-bar-title">Menu</div>
+	</div>
 
+	<!--Nav bar-->
+	<div class="top-bar nav" id="example-menu">
+		<div class="top-bar-left">
+			<ul class="vertical medium-horizontal menu nav">
+				<li><a class="nav" href="caleb.html">Caleb</a></li>
+				<li><a class="nav" href="elaine.html">Elaine</a></li>
+				<li><a class="nav" href="emily.html">Emily</a></li>
+				<li><a class="nav" href="gavin.html">Gavin</a></li>
+				<li><a class="nav" href="leland.html">Leland</a></li>
+				<li><a class="nav" href="micheal.html">Micheal</a></li>
+				<li><a class="nav selected" href="quintin.html">Quintin</a></li>
+			</ul>
+		</div>
+		<div class="top-bar-right">
+			<ul class="vertical medium-horizontal menu nav">
+				<li><a class="img" href="group.html"><img src="home_icon.png"/>Home</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row background">
+		<div class="large-12 columns">
+			<p>
 			</p>
 		</div>
+	</div>
 
-		<div class="Background">
-			<h2>Qualities</h2>
-			<p style="text-align:justify">
-			I would say that I am hard-working, a team player, and enthusiastic although I can be comical. When I encounter a program, I do not like to just give up. Instead, I like to keep working at the problem until it is finished.
+	<div class="row footer">
+		<div class="large-12 columns">
+			<p>
 			</p>
-
 		</div>
+	</div>
 
-        <div class="Background">
-            <h2>What I can bring to the team</h2>
-            <p style="text-align:justify">
-			I am a great team player and will able to communicate with other to achieve a common goal where everyone's voice is heard. I have been on many sports team and understand the importance of working together. In terms of my technical experience, I think I will be able to bring a level of knowledge that will help advance the Paly robotics website.
+		<div class="row foot">
+		<div class="large-12 columns">
+			<p>
 			</p>
-        </div>
-
-		<div class="footer">
 		</div>
+	</div>
 
-		<br>
-		<br>
+	<script src="foundation-6.2.3-complete/js/vendor/jquery.js"></script>
+	<script src="foundation-6.2.3-complete/js/vendor/what-input.js"></script>
+	<script src="foundation-6.2.3-complete/js/vendor/foundation.js"></script>
+	<script>
+      $(document).foundation();
+    </script>
+</body>
 
-	</body>
-
-	<style>
-	img {
-		float: right;
-	}
-
-	p {
-		font-family: tahoma;
-	}
-
-	h2 {
-		font-family: verdana;
-	}
-
-	h1 {
-		font-family: verdana;
-	}
-
-	a {
-		font-family: tahoma;
-	}
-
-	p.title {
+<style>
+	h1.title {
+		font-size: 48px;
 		color: white;
-	}
-
-	div.title {
-		background-color: #006622;
-		padding: 15px;
-	}
-
-	div.seperator {
-		background-color: black;
-		padding: 3px;
-	}
-
-	div.Background {
-		background-color: lightgray !important;
-		padding: 15px;
-		margin: 15px;
-	}
-
-	div.footer {
-		position: fixed;
-		bottom:0;
-		height: 35px;
-		width: 100%;
-		background-color:black;
+		text-align: center;
+		padding: 40px;
 	}
 	
-	a.current {
-		background-color: #006622;
+	div.title {
+		background-color: #2C3E50;
+		max-width: 100%;
+	}
+	div.background {
+		background-color: #ECF0F1;
+		min-height: 1000px;
+		max-width: 100%;
+	}
+	div.footer {
+		background-color: #E74C3C;
+		min-height: 100px;
+	}
+	div.foot {
+		background-color: #1c1c1c;
+		min-height: 30px
+	}
+	a.nav {
+		color: white;
+		padding: 15px !important;
+	}
+	a.img {
+		color: white;
+		padding: 7px !important;
+	}
+	button.navmenu {
+		margin: 15px !important;
+	}
+	div.nav {
+		background-color: #1c1c1c !important;
+		padding: 0px !important;
+	}
+	.nav {
+		background-color: #1c1c1c !important;
+	}
+	.selected {
+		background-color: #2C3E50 !important;
+	}
+	a:hover {
+		background-color: #2D2A2A !important;
+		transition: 0.4s;
 	}
 
-	a.current:hover {
-		background-color: #006622 !important;
-	}
+</style>
 
-	ul.topnav {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #333;
-	}
-
-	/* Float the list items side by side */
-	ul.topnav li {float: left;}
-
-	/* Style the links inside the list items */
-	ul.topnav li a {
-		display: inline-block;
-		color: #f2f2f2;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		transition: 0.3s;
-		font-size: 17px;
-	}
-
-	/* Change background color of links on hover */
-	ul.topnav li a:hover {background-color: #555;}	
-	</style>
 </html>
