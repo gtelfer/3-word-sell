@@ -2,10 +2,10 @@
 <!DOCTYPE  html>
 <html lang="en">
 	<head>
-	<link rel="icon" href="favicon.ico">
+	<link rel="icon" href="main_logo.png">
 	<link rel="stylesheet" href="styles.css">
 	<title>About Quintin</title>
-	</head>
+	</head> 
 
 	<body>
 		
@@ -13,6 +13,7 @@
             <p class=title>
                 About Quintin
             </p>
+			<!--<img src="main_logo.png" width="48px">-->
         </div>
 
 		<ul class="topnav" id="myTopnav">
@@ -21,20 +22,17 @@
   		    <li><a href="elaine.html">Elaine</a></li>
 		    <li><a href="emily.html">Emily</a></li>
 		    <li><a href="gavin.html">Gavin</a></li>
-		    <li><a href="#Michael">Michael</a></li>
-            <li><a href="#Quintin">Quintin</a></li>
-            <li><a href="#Leland">Leland</a></li>
+            <li><a href="lelanddoc.html">Leland</a></li>
+			<li><a href="michael.html">Michael</a></li>
+			<li><a class=current href="quintin.html">Quintin</a></li>
 		</ul>	
 	
-
 		<h1 class=title>About me</h1>
-
-		<hr>
 		
 		<div class="Background">
 			<h2>Technical knowledge</h2>
 			<p style="text-align:justify">
-			I have worked with HTML, CSS, and JavaScript before. At the robotics camp during the summer I worked on a site for a robot and learned HTML and CSS. On my free time during the camp when I had completed my tasks, I created a game and slideshow in JavaScript. In terms of Git, I have used it before with my game in Unity to distribute it to my friends, so I am familitar with basic git shell commands. In addition to these web programming languages, I have also worked with C#, Java, and Python.
+			I have worked with HTML, CSS, and JavaScript before. At the robotics camp during the summer I worked on a site for a robot and learned HTML and CSS. On my free time during the camp when I had completed my tasks, I created a game and slideshow in JavaScript. In terms of Git, I have used it before with my game in Unity to distribute it to my friends, so I am familiar with basic git shell commands. In addition to these web programming languages, I have also worked with C#, Java, and Python.
 
 			</p>
 		</div>
@@ -42,7 +40,7 @@
 		<div class="Background">
 			<h2>Qualities</h2>
 			<p style="text-align:justify">
-			I would say that I am hard-working, a team player, and enthusiastic although I can be comical.
+			I would say that I am hard-working, a team player, and enthusiastic although I can be comical. When I encounter a program, I do not like to just give up. Instead, I like to keep working at the problem until it is finished.
 			</p>
 
 		</div>
@@ -54,32 +52,94 @@
 			</p>
         </div>
 
+		<div class="footer">
+		</div>
+
+		<br>
+		<br>
+
 	</body>
 
 	<style>
+	img {
+		float: right;
+	}
+
+	p {
+		font-family: tahoma;
+	}
+
+	h2 {
+		font-family: verdana;
+	}
+
+	h1 {
+		font-family: verdana;
+	}
+
+	a {
+		font-family: tahoma;
+	}
+
+	p.title {
+		color: white;
+	}
+
+	div.title {
+		background-color: #006622;
+		padding: 15px;
+	}
+
+	div.seperator {
+		background-color: black;
+		padding: 3px;
+	}
+
+	div.Background {
+		background-color: lightgray !important;
+		padding: 15px;
+		margin: 15px;
+	}
+
+	div.footer {
+		position: fixed;
+		bottom:0;
+		height: 35px;
+		width: 100%;
+		background-color:black;
+	}
+	
+	a.current {
+		background-color: #006622;
+	}
+
+	a.current:hover {
+		background-color: #006622 !important;
+	}
+
 	ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
 
-/* Float the list items side by side */
-ul.topnav li {float: left;}
+	/* Float the list items side by side */
+	ul.topnav li {float: left;}
 
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
+	/* Style the links inside the list items */
+	ul.topnav li a {
+		display: inline-block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 17px;
+	}
 
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}	
+	/* Change background color of links on hover */
+	ul.topnav li a:hover {background-color: #555;}	
 	</style>
 </html>

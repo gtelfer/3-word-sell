@@ -5,6 +5,7 @@
 	<link rel="icon" href="favicon.ico">
 	<link rel="stylesheet" href="styles.css">
 	<title>About Caleb</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	</head>
 
 	<body>
@@ -13,15 +14,17 @@
 		</div>
 
 		<ul class="topnav" id="myTopnav">
-  		    <li><a href="group.html"">Home</a></li>
-  		    <li><a href="elaine.html">Elaine</a></li>
+  		    <li style="float:left"><a href="group.html"">Home</a></li>
+  		    <li><a class="current" href="caleb.html">Caleb</a></li>
+		    <li><a href="elaine.html">Elaine</a></li>
 		    <li><a href="emily.html">Emily</a></li>
 		    <li><a href="gavin.html">Gavin</a></li>
+		    <li><a href="lelanddoc.html">Leland</a></li>
 		    <li><a href="michael.html">Michael</a></li>
 		    <li><a href="quintin.html">Quintin</a></li>
-		    <li><a href="lelanddoc.html">Leland</a></li>
 		</ul>	
-		<div class="hi">
+		
+		<div>
 			<h2>About Me</h2>
 		</div>
 		<hr>
@@ -34,10 +37,14 @@
 			</p>
 		</div>
 
+		<div class="image">
+			<img src="https://pbs.twimg.com/profile_images/694763654680436736/GJO5ElF3.png">
+		</div>
+
 		<div class="Past_Experience">
 			<h4>Past Experience</h4>
 			<p style="text-align:justify">
-			Though a relative beginner in the aspects of coding and such, I do know some concepts from a wide variety of topics. For example, I have some experience working with SQL and sqlite3, I know a variety of Bash commands, and I know a small amount of Python coding. Through the robotics tryout, I was also able to expand my horizons and familiarize myself with some HTML5 and CSS. Additionally, I was on a First Lego Robotics team in where our team built and coded a robot.   
+			Though a relative beginner in the aspects of coding and such, I do know some concepts from a wide variety of topics. For example, I have some experience working with SQL and sqlite3, I know a variety of Bash commands, and I know a small amount of Python coding. Through the robotics tryout, I was also able to expand my horizons and familiarize myself with some HTML5, CSS, and Git bash commands. Additionally, I was on a First Lego Robotics team in where our team built and coded a robot.   
 			</p>
 
 		</div>
@@ -50,6 +57,17 @@
 		</div>
 
 	</body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<hr>
+	<footer>
+		© Copyright 2016 - Caleb Tan. All rights reserved.
+	</footer>
 
 	<style>
 	ul.topnav {
@@ -58,6 +76,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family:tahoma;
 }
 
 /* Float the list items side by side */
@@ -79,20 +98,21 @@ ul.topnav li a:hover {background-color:#008080;}
 
 h1{
 	text-align:right;
-	margin: 5px;
+	margin-top:0px;
+	margin-bottom:0px;
 	padding:-15px;
 	color:white;
-	font-size:65px;
-	font-family:Walkway;
-	font-weight:lighter;
+	font-size:68px;
+	font-family:Quicksand;
+	font-weight:bold;
 }
 
 h2 {
     font-size:35px;
     padding:0px;
     margin-left:15px;
-    font-family:tahoma;
-    font-weight:lighter;
+    font-family:Quicksand;
+    font-weight:bold;
 }
 
 .Background {
@@ -107,18 +127,18 @@ h2 {
 }
 
 h3{
-    font-size:26px;
-	font-family:Walkway;
+    font-size:27px;
+	font-family:Quicksand;
 }
 
 h4{
     font-size:26px;
-    font-family:Walkway;
+    font-family:Quicksand;
 }	
 
 h5{
 	font-size:26px;
-	font-family:Walkway;
+	font-family:Quicksand;
 }
 
 p{
@@ -127,20 +147,43 @@ p{
 }
 
 div.title {
-	background-color:#008080 !important;
-	padding: 15px;
+	background-color:#008080;
+	padding:15px;
 }
 
 body{
-	background-color:#eeeeee;
+	background-color:white;
 }
 
 @font-face{
-	font-family: Walkway;
-	src: url(Walkway/Walkway_Bold.ttf);
+	font-family:Quicksand;
+	src: url(Quicksand/Quicksand-Regular.otf);
 }
 
+.current{
+	background-color:#008080;
+}
+/* IMAGE FOR THE RIGHT */
+.image {
+	float:right;
+	margin-right:63px;
+	margin-top:-60px;
+}
 
+img {
+	width:400px;
+	height:400px;
+}
+
+/*footer*/
+footer{
+	padding-top:25px;
+	margin-left:15px;
+}
+/*.asdf is everything but the home hyperlink*/
+.asdf {
+	float:right;
+}
 
 	</style>
 
